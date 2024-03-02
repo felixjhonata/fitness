@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
     _getInitialInfo();
     return Scaffold(
       appBar: appBar(),
-      backgroundColor: Colors.blue,
+      backgroundColor: Colors.white,
       body: ListView(
         children: [
           _searchField(),
